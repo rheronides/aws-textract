@@ -26,7 +26,7 @@ This is the basic structure of an lambda function, to use AWS Textract we need t
 ```python
 import boto3
 ```
-Before import the **boto3** lib in your code you need to import it's as a layer of your lambda function. You can download the file in the lib folder. 
+Before import the **boto3** lib in your code you need to import it's as a layer of your lambda function. You can download the file in **lib** folder. 
 
 Here lies most of AWS function they use to help to create everything that they provide, to use the textract we use like this.
 
