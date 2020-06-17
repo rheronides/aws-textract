@@ -1,10 +1,10 @@
 # Prerequisites
 You need to have an AWS account and some basic knowledge working with AWS services.
 
-#AWS Services utilized
-    Textract Service
-    Lambda Service
-    API Gateway
+# AWS Services utilized
+   * Textract Service
+   * Lambda Service
+   * API Gateway
     
 # AWS Textract
 
