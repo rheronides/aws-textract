@@ -52,4 +52,4 @@ Remember to give permission for your Lambda function to access the Textract Serv
 # API Gateway
  You need to *Add Trigger* after finalized your Lambda configuration, to configure de API Gateway. Set the *"Security"* as *API Key*. After created, this it's generate an *ENDPOINT and API-KEY* for you. You have to add this in the javascript code that is present in the **js** folder.
  
- ### If you have any question or suggestion, contact me please.
+ ##### If you have any question or suggestion, contact me please. :smile:
