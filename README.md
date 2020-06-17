@@ -47,6 +47,8 @@ def lambda_handler(event, context):
 
 Check the full code in **py** folder.
 
+
+### Lambda Security
 Remember to give permission for your Lambda function to access the Textract Service. Open the Lambda Function and click *"Attach policy"* and select *"AmazonTextractFullAccess"*.
  
 # API Gateway
