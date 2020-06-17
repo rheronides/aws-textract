@@ -12,7 +12,7 @@ This project use [AWS Textract](https://aws.amazon.com/pt/textract/) with Python
 
 > Amazon Textract is a service that automatically extracts text and data from scanned documents.
 
-## Lambda Function
+# Lambda Function
 
 Implementing an AWS Lambda function to build an simple [OCR](https://en.wikipedia.org/wiki/Optical_character_recognition) to read an image and extract all the data returning an JSON with everything we need :smile:
 
@@ -45,4 +45,9 @@ def lambda_handler(event, context):
   return
 ```
 
- Check the full code in **py** folder.
+Check the full code in **py** folder.
+
+Remember to give permission for your Lambda function to access the Textract Service. Open the Lambda Function and click *"Attach policy"* and select *"AmazonTextractFullAccess"*.
+ 
+# API Gateway
+ You need to *Add Trigger* after finalized your Lambda configuration, to configure de API Gateway. Set the *"Security"* as *API Key*. After created, this it's generate an *ENDPOINT and API-KEY* for you. You have to add this in the javascript code that is present in the **js** folder.
