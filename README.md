@@ -1,3 +1,6 @@
+#Prerequisites
+You need to have an AWS account and some basic knowledge working with AWS services.
+
 # AWS Textract
 
 This project use [AWS Textract](https://aws.amazon.com/pt/textract/) with Python to easily extract text and data from any document.
@@ -13,7 +16,7 @@ Implementing an AWS Lambda function to build an simple [OCR](https://en.wikipedi
 Theres a plenty way to create a lambda function, but basicly we need a handler.
 
 ```python
-def lambda_hanler(event, context):
+def lambda_handler(event, context):
   # your code comes here
   return
 ```
@@ -23,15 +26,18 @@ This is the basic structure of an lambda function, to use AWS Textract we need t
 ```python
 import boto3
 ```
+Before import the **boto3** lib in your code you need to import it's as a layer of your lambda function. You can download the file in the lib folder. 
 
-Here lies most of AWS function they use to help to create everything that they provide, to use the textract we use like this
+Here lies most of AWS function they use to help to create everything that they provide, to use the textract we use like this.
 
 ```python
 import boto3
 
-def lambda_hanler(event, context):
+def lambda_handler(event, context):
   #...
   textract = boto3.client('textract')
   # ...
   return
 ```
+
+ Check the full code in **py** folder.
