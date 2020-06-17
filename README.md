@@ -1,6 +1,11 @@
 # Prerequisites
 You need to have an AWS account and some basic knowledge working with AWS services.
 
+#AWS Services utilized
+    Textract Service
+    Lambda Service
+    API Gateway
+    
 # AWS Textract
 
 This project use [AWS Textract](https://aws.amazon.com/pt/textract/) with Python to easily extract text and data from any document.
