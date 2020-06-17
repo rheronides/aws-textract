@@ -1,4 +1,4 @@
-#Prerequisites
+# Prerequisites
 You need to have an AWS account and some basic knowledge working with AWS services.
 
 # AWS Textract
